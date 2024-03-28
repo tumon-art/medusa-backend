@@ -14,6 +14,4 @@ RUN npm install --loglevel=error
 
 COPY . .
 
-EXPOSE 9000
-
-ENTRYPOINT ["./develop.sh", "start"]
+ENTRYPOINT ["./develop.sh", "develop"]
